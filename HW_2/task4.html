@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4</title>
+</head>
+
+<body>
+    <!--
+        Задание 4
+        Необходимо от пользователя получить число.
+        Необходимо вывести разряды числа, а именно: количество сотен, десятков и единиц.
+    -->
+
+    <script>
+        let num = Number(prompt('Введите трехзначное число'))
+
+        let hundreds = (num - num % 100) / 100;
+        let tenners = (num % 100 - num % 10) / 10;
+        let digits = num % 10;
+
+        alert(`В числе ${num} ${hundreds} сотен, ${tenners} десятков и ${digits} единиц`)
+
+    </script>
+</body>
+
+</html>
