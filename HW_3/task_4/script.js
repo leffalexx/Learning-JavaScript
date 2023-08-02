@@ -1,5 +1,5 @@
 const firstNum = Number(prompt('Введите первое число'));
-let secondNum = Number(prompt('Введите второе число'));
+const secondNum = Number(prompt('Введите второе число'));
 const subtractionTwoNumbers = (num1, num2) => {
     if (num1 >= num2) {
         return num1 - num2;
