@@ -1,5 +1,6 @@
-const firstNum = Number(prompt('Введите первое число'));
-const secondNum = Number(prompt('Введите второе число'));
+let firstNum = Number(prompt('Введите первое число'));
+let secondNum = Number(prompt('Введите второе число'));
+const additionTwoNumbers = (num1, num2) => num1 + num2;
 const subtractionTwoNumbers = (num1, num2) => {
     if (num1 >= num2) {
         return num1 - num2;
