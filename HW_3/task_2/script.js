@@ -5,6 +5,6 @@ if (typeof salaryBeforeTaxes !== 'number') {
     salaryBeforeTaxes = prompt('Именно цифры, без пробелов и знаков препинания')
 }
 
-let salaryAfterTaxes = (salaryBeforeTaxes) => salaryBeforeTaxes * 0.87;
+const salaryAfterTaxes = (salaryBeforeTaxes) => salaryBeforeTaxes * 0.87;
 
 console.log(`Размер заработной платы за вычетом налогов равен ${salaryAfterTaxes(salaryBeforeTaxes)}`);
