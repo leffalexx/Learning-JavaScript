@@ -1,5 +1,9 @@
-let pyramidRow = '';
-for (let i = 0; i < 20; i++) {
-    pyramidRow += 'x';
-    console.log(pyramidRow);
+const printPyramid = (height) => {
+    let row = '';
+    for (let i = 0; i < height; i++) {
+        row += 'x';
+        console.log(row);
+    }
 }
+
+printPyramid(20);
